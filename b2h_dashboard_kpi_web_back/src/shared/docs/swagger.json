@@ -1,0 +1,23 @@
+{
+       "openapi": "3.0.0",
+       "info": {
+              "title": "Simple   API",
+              "description": "This is a simple API",
+              "contact": {
+                     "email": "tarek.mdemegh@box2home.fr"
+              },
+              "license": {
+                     "name": "Apache 2.0",
+                     "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+              },
+              "version": "1.0.0"
+       },
+       "servers": [
+             
+       ],
+       "tags": [
+              
+       ],
+       "paths": {  },
+       "components": { }
+}
