@@ -4,11 +4,11 @@
        "description": "",
        "main": "src/index.ts",
        "scripts": {
-  "start": "node build/src/index.js",
-  "build": "tsc",
-  "start:local": "cp src/environment/.local.env .env && nodemon",
-  "test": "jest --verbose false --testPathIgnorePatterns '.history/'"
-},
+              "start": "node build/src/index.js",
+              "build": "tsc",
+              "start:local": "cp src/environment/.local.env .env && nodemon",
+              "test": "jest --verbose false --testPathIgnorePatterns '.history/'"
+       },
        "engines": {
               "node": ">= 18.12"
        },
@@ -38,7 +38,7 @@
        },
        "devDependencies": {
               "@types/jest": "^29.5.6",
-              "@types/node": "^20.8.8",
+              "@types/node": "^20.19.39",
               "@typescript-eslint/eslint-plugin": "^6.9.0",
               "@typescript-eslint/parser": "^6.9.0",
               "eslint": "^8.52.0",
