@@ -10,7 +10,7 @@
               "test": "jest --verbose false --testPathIgnorePatterns '.history/'"
        },
        "engines": {
-              "node": ">= 18.12"
+              "node": "18.x"
        },
        "keywords": [],
        "author": "",
