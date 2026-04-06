@@ -1,4 +1,4 @@
-import ClientModel from '@src/shared/models/Clients';
+import ClientModel from '../../shared/models/Clients';
 
 const clientService = {
        async createClient(clientData) {

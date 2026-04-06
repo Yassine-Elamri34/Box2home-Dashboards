@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import userServices from '../services/users.services';
-import { ILogin, IUser } from '@src/shared/interfaces/user.interfaces';
+import { ILogin, IUser } from '../../shared/interfaces/user.interfaces';
 
 const loginController = async (req: Request, res: Response) => {
        try {
