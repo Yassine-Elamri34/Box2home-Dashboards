@@ -1,7 +1,7 @@
-import config from '@config';
+import config from './config';
 import { server } from './app';
-import mongoInitPromise from '@providers/db';
-import fixtures from '@fixture/index';
+import mongoInitPromise from './providers/db';
+import fixtures from './shared/fixture/index';
 
 mongoInitPromise
   .then(async () => {
