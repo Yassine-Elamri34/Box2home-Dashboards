@@ -1,7 +1,7 @@
 // @ts-ignore
 
 import { AgentConfigOptions } from 'elastic-apm-node';
-import { envVars } from '@validations/environment.validation';
+import { envVars } from '../shared/validations/environment.validation';
 
 /** @type {AppConfig} */
 const config = {
