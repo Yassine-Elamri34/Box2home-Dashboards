@@ -7,12 +7,13 @@ import morgan from 'morgan';
 import express from 'express';
 
 //import docs from '@docs';
-import config from '@config';
-import routes from 'src/API/routes';
+import config from './config';
+import routes from './API/routes';
 
 //import { handleAppProcessExists } from '@helpers/process.helpers';
 
 const app = express();
+
 // enable cors
 app.use(cors(config.corsOptions));
 
@@ -34,5 +35,6 @@ app.use('/api/v1', routes);
 
 //Handle server start errors
 // handleAppProcessExists();
+
 export { app };
 export const server = http.createServer({}, app);
