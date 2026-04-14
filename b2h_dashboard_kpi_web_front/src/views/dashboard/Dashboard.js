@@ -44,7 +44,9 @@ const Dashboard = () => {
        let randomColors = ['primary', 'secondary', 'success', 'danger', 'warning', 'info', 'dark', 'light'];
        const getGlobalKPI = async e => {
               try {
-                     const response = await axios.get('http://localhost:4000/api/v1/kpi/global');
+                     const response = await axios.get(
+  'https://box2home-dashboards-2.onrender.com/api/v1/kpi/global'
+);
 
                      console.log(response.data.data);
                      if (response?.data?.data) {

@@ -104,7 +104,9 @@ const ClientDetailsContainer = () => {
        useEffect(() => {
               const fetchClientData = async () => {
                      try {
-                            const response = await axios.get(`http://localhost:4000/api/v1/clients/${id}`);
+                            const response = await axios.get(
+  `https://box2home-dashboards-2.onrender.com/api/v1/clients/${id}`
+);
                             const clientData = response.data.data;
                             setFormData(clientData);
                      } catch (error) {

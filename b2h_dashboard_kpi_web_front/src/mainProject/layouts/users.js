@@ -16,7 +16,9 @@ export default function Users() {
 
        const fetchListUsers = async () => {
               try {
-                     const { data } = await axios.get('http://localhost:4000/api/v1/users/list');
+                     const { data } = await axios.get(
+  'https://box2home-dashboards-2.onrender.com/api/v1/users/list'
+);
                      setRowData(data.data); // Set the fetched data to the rowData state
               } catch (error) {
                      console.log(error);

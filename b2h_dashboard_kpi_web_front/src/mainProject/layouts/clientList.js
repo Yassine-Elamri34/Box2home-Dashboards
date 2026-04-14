@@ -20,7 +20,9 @@ export default function ClientList() {
 
        const fetchClientList = async () => {
               try {
-                     var { data } = await axios.get('http://localhost:4000/api/v1/clients/all');
+                     var { data } = await axios.get(
+  'https://box2home-dashboards-2.onrender.com/api/v1/clients/all'
+);
                      setRowData(data.data?.reverse());
               } catch (error) {
                      console.log(error);

@@ -24,7 +24,10 @@ export default function AddUser() {
        const handleSubmit = async e => {
               e.preventDefault();
               try {
-                     const response = await axios.post('http://localhost:4000/api/v1/auth/register', formData);
+                     const response = await axios.post(
+  'https://box2home-dashboards-2.onrender.com/api/v1/auth/register',
+  formData
+);
                      console.log(response.data); // Log the response if needed
                      // Clear form after successful submission if needed
                      setFormData({
